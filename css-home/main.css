@@ -1,0 +1,104 @@
+/*
+
+================GLOBALES==================
+
+*/
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
+
+ 
+
+
+  body {
+
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+  }
+
+
+/*
+
+================MENU==================
+
+*/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(red, green, blue, alpha);
+}
+
+
+.btn-registrarse {
+    background-color: #fc3c02; /* Color de fondo naranja */
+    outline-color: #493205;
+    
+    color: #FFFFFF; /* Color del texto blanco */
+    /* Otros estilos que desees aplicar */
+}
+
+
+.btn-registrarse,
+.nav-link {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =============SLIDER DE IMAGENES============== */
+
+
+
+.carousel-inner {
+    max-height: 20rem;
+}
+
+
+
+/*
+
+================MEDIA QUERIES PANTALLA SM==================
+
+*/
+
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90%  !important;
+    }
+
+    #equipo p{
+
+        display: none;
+    }
+    .servicio-fila{
+    width: 100% !important;
+    text-align: center;
+    }
+
+}
+
+
+/*
+
+================MEDIA QUERIES PANTALLA SM==================
+
+*/
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        
+    }
+
+}
