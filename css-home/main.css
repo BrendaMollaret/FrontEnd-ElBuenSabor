@@ -13,9 +13,22 @@
   body {
 
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    
+    
   }
 
+  /* Estilo personalizado para reducir el espacio entre párrafos */
+
+
+
+  /* Estilo CSS personalizado */
+body {
+    background-image: url('imagenes-home/wave.svg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+}
+
+
+ 
 
 /*
 
@@ -23,10 +36,10 @@
 
 */
 
-#menu li > a {
+#menu {
     font-size: 18px;
     font-weight: bold;
-    color: rgba(red, green, blue, alpha);
+    background-image: url(imagenes-home/wave.svg);
 }
 
 
@@ -44,24 +57,17 @@
     font-weight: bold;
 }
 
+.btn-login {
+    font-size: x-small;
 
-
-
-
-
-
-
-
-
-
-
-/* =============SLIDER DE IMAGENES============== */
-
-
-
-.carousel-inner {
-    max-height: 20rem;
 }
+
+
+
+
+
+
+
 
 
 
