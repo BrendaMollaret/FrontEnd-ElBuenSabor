@@ -1,0 +1,27 @@
+body {
+    background-color:cornsilk;
+}
+
+
+.img-container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    margin: 50px;
+
+}
+.descripcion{
+    font-size:18px;
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    margin: 50px;
+}
+.fondo {
+    
+    
+}
