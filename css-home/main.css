@@ -1,0 +1,91 @@
+/*
+
+================GLOBALES==================
+
+*/
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
+
+ 
+
+
+  body {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    
+  }
+
+
+
+/*
+
+================MENU==================
+
+*/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url(imagenes-home/wave.svg);
+}
+
+
+.btn-registrarse {
+    background-color: #fc3c02; /* Color de fondo naranja */
+    outline-color: #493205;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF; /* Color del texto blanco */
+    /* Otros estilos que desees aplicar */
+}
+
+
+.btn-login {
+    font-size:;
+    color: rgb(149, 8, 8);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+================MEDIA QUERIES PANTALLA SM==================
+
+
+
+/*
+
+================MEDIA QUERIES PANTALLA SM==================
+
+*/
+
+
+
+
+
+
+
+
+@keyframes moving {
+
+    0%{
+        left: -20px;
+    }
+
+    100%{
+        left: 100px;
+    }
+    
+}

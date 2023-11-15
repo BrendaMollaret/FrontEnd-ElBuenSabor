@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agrega las hojas de estilo de Bootstrap y el conjunto de iconos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css-home/main.css">
+    <title>El buen sabor</title>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light bg-body-secondary">
+        <div class="container">
+
+        <!-- Logo -->
+        <div class=""> 
+            <img src="imagenes-home/LOGO-RECORTADO-RB.png" alt="" style="height: 120px;">
+        </div>
+
+        <!-- Botón de toggle -->
+        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Filas de navegación -->
+        <div class="collapse navbar-collapse flex-column" id="navbarCollapse">
+
+            <!-- Primera fila de navegación -->
+            <ul class="navbar-nav me-auto mt-2 mb-2 mb-lg-0 container-fluid d-flex justify-content-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Locales</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactanos">Contactanos</a>
+                </li>
+
+            </ul>
+
+            <!-- Segunda fila de navegación -->
+            <ul class="navbar-nav me-auto mt-3 mb-lg-0 container-fluid d-flex justify-content-center">
+
+                <li class="nav-item mx-2 me-lg-5 mb-3">
+                    <a href="#">
+                        <img src="imagenes-home/icono-lupa.png" alt="icono-lupa" width="30" height="30">
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="index.html">
+                        <img src="imagenes-home/icono-hamburguesa.png" alt="icono-papas" width="30" height="30">   
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="papas.html">
+                        <img src="imagenes-home/icono-papas.png" alt="icono-papas" width="30" height="30">   
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="pizza.html">
+                        <img src="imagenes-home/icono-pizza.png" alt="icono-pizza" width="30" height="30">
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="panchos.html">
+                        <img src="imagenes-home/icono-pancho.png" alt="icono-pancho" width="30" height="30">
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="bebidas.html">
+                        <img src="imagenes-home/icono-soda.png" alt="icono-soda" width="30" height="30">    
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2 mx-lg-4 mb-3">
+                    <a href="#">
+                        <img src="imagenes-home/icono-carrito.png" alt="icono-hamburguesa" width="30" height="30"> 
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- BOTONES LOGIN Y REGISTER -->
+        
+        
+        <div class="d-flex flex-column align-items-center"> 
+            <a href="#" type="button" class="btn btn-warning px-4 mb-2 btn-registrarse rounded-pill">
+                Registrarse</a>
+               
+                <!-- Boton con modal -->
+                <button type="button" class="nav-link fs-6 btn-login" data-bs-toggle="modal" data-bs-target="#LOGINMODAL">
+                    Iniciar sesión
+                </button>
+        </div>
+
+    </div>
+
+
+    </nav>
+
+    <!-- Modal -->
+  <div class="modal fade" id="LOGINMODAL" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+        <div class="modal-body p-0">
+            <object type="text/html" data="login.html" style="width:100%; height:100vh;"></object>
+
+        </div>
+        
+              
+      </div>
+    </div>
+  </div>
+
+
+
+    
+
+
+
+    
+   
+    
+    <!-- ================================ -->
+    <!--- COMIDA -->
+    <!--=================================-->  
+ 
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row justify-content-center">
+
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3">
+                <div class="card mb-4 text-center border-warning">
+                    <img src="imagenes-home/HAMBURGUESA.png" class="card-img-top img-fluid" alt="..." style="margin-top: -50px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa 11</h5>
+                        <p class="card-text">Una explosión de sabor</p>
+                        <p class="card-text">$2000</p>
+                        <a href="#" class="btn btn-warning">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+    
+    
+    <!-- ================================ -->
+    <!--- CARRITO DE COMPRAS -->
+    <!--=================================-->  
+
+    
+
+
+
+
+    <!-- ================================ -->
+    <!--- FOOTER  -->
+    <!--=================================-->  
+   
+    <footer class="bg-body-secondary text-light py-4" id="contactanos">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                
+                <!-- Primera columna -->
+                <div class="card bg-transparent border border-0" style="max-width: 300px;">
+                    <div class="row g-0">
+                        <div class="col-md-3">
+                            <img src="imagenes-home/LOGO-RECORTADO-RB.png" class="img-fluid rounded-start" alt="El buen sabor" style="margin-top: 10px;">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body text-md-center"> 
+                                <h5 class="card-title">El buen sabor</h5>
+                                <p class="card-text">Tu mejor elección de comida</p>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                
+    
+                <!-- Segunda columna -->
+                <div class="col-md-3 text-secondary-emphasis text-center">
+                    <h5>HORARIOS</h5>
+                    
+                    <p class="mb-0">Lunes a domingos de 20:00 a 12:00</p>
+                    <p class="mb-0">Sábados y domingos de 11:00 a 15:00</p>
+                   
+                </div>
+                
+                <!-- Tercera columna -->
+                <div class="col-md-3 text-secondary-emphasis text-center">
+                    <h5>LINKS</h5>
+                    <p>Terminos y servicios</p>
+                    <p>Contacto</p>
+                    <p>Trabaje con nosotros</p>
+                </div>
+                
+                
+                <!-- Cuarta columna -->
+                <div class="col-md-3 text-secondary-emphasis text-center">
+                    <h5>CONTACTENOS</h5>
+                    <p>+54 9 2612345678</p>
+                    <p>Calle UTN-FRM 265</p>
+                   
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
